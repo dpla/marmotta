@@ -19,14 +19,8 @@ language: java
 
 sudo: false
 
-branches:
-  only:
-  - master
-  - develop
-
 jdk:
 - oraclejdk7
-- oraclejdk8
 
 before_install:
 - echo "MAVEN_OPTS='-Xmx2g'" > ~/.mavenrc
